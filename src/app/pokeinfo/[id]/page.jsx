@@ -5,7 +5,7 @@ import { useParams } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
 
-function pokeinfo() {
+function Pokeinfo() {
 
     const params = useParams();
     console.log(params);
@@ -83,4 +83,4 @@ function pokeinfo() {
     )
 }
 
-export default pokeinfo
+export default Pokeinfo
