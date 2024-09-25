@@ -38,7 +38,7 @@ function PokeData() {
                             w-64 h-64 mx-2 my-3 rounded-md'>
                                 <div>
                                     <h3>{val.name}</h3>
-                                    <Image src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${index + 1}.gif`}
+                                    <Image src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${index + 1}.png`}
                                     width={124} height={124} alt={val.name} />
                                 </div>
                             </div>

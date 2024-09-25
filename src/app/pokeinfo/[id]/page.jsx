@@ -28,7 +28,7 @@ function Pokeinfo() {
             setLoading(false);
         }
         fetchPokeDetails();
-    }, [])
+    }, [params.id])
 
     console.log(poke);
 

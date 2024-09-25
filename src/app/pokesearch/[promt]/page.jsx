@@ -15,7 +15,6 @@ function SearchResult() {
     const fetchPokeData = async () => {
         setLoading(true);
         try {
-
             const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${params.promt}`);
             const pokeData = await response.json();
             setPoke(pokeData);
